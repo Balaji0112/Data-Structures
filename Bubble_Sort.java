@@ -1,6 +1,7 @@
-class Sort
+import java.util.Scanner;
+class Bubble_Sort
 {
-    void Bubble_Sort(int arr[])
+    void Sort(int arr[])
     {
         int arr_length=arr.length;
         for(int i=0;i<arr_length-1;i++)
@@ -20,9 +21,22 @@ class Sort
             System.out.print(arr[i]+" ");
         }
     }
+    void print_mid_element(int arr[])
+    {
+        int mid_element_index=arr.length/2;
+        System.out.print("\n"+"The middle element in the sorted array is "+arr[mid_element_index]);
+    }
 public static void main(String args[]) {
-    Sort obj=new Sort();
-    int arr[]={168,179,181,120,142,204};
-    obj.Bubble_Sort(arr);
+    Scanner sc = new Scanner(System.in);
+    int n=sc.nextInt();
+    int[] arr=new int[n];
+    for(int i=0;i<n;i++)
+	    {
+			int arr_input=sc.nextInt();
+			arr[i]=arr_input;
+		}
+    Bubble_Sort obj=new Bubble_Sort();
+    obj.Sort(arr);
+    obj.print_mid_element(arr);
 }
 }
