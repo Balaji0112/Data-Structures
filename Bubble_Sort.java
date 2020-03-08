@@ -22,10 +22,10 @@ public static void main(String args[]) {
     int n=sc.nextInt();
     int[] arr=new int[n];
     for(int i=0;i<n;i++)
-	    {
-			int arr_input=sc.nextInt();
-			arr[i]=arr_input;
-		}
+    	{
+	    int arr_input=sc.nextInt();
+	    arr[i]=arr_input;
+	}
     Bubble_Sort obj=new Bubble_Sort();
     obj.Sort(arr);
 }
