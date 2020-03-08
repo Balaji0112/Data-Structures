@@ -3,10 +3,9 @@ class Bubble_Sort
 {
     void Sort(int arr[])
     {
-        int arr_length=arr.length;
-        for(int i=0;i<arr_length-1;i++)
+        for(int i=0;i<=arr.length/2;i++)
         {
-            for(int j=0;j<arr_length-i-1;j++)
+            for(int j=0;j<arr.length-i-1;j++)
             {
                if(arr[j]>arr[j+1])
                {
@@ -16,15 +15,7 @@ class Bubble_Sort
                } 
             }
         }
-        for(int i=0;i<arr_length;i++)
-        {
-            System.out.print(arr[i]+" ");
-        }
-    }
-    void print_mid_element(int arr[])
-    {
-        int mid_element_index=arr.length/2;
-        System.out.print("\n"+"The middle element in the sorted array is "+arr[mid_element_index]);
+        System.out.print("The middle element after sorting is: "+arr[arr.length/2]);
     }
 public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);
@@ -37,6 +28,5 @@ public static void main(String args[]) {
 		}
     Bubble_Sort obj=new Bubble_Sort();
     obj.Sort(arr);
-    obj.print_mid_element(arr);
 }
 }
