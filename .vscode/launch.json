@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - abc",
+            "request": "launch",
+            "mainClass": "abc",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sort_merge",
+            "request": "launch",
+            "mainClass": "sort_merge",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge_sorted_array",
+            "request": "launch",
+            "mainClass": "Merge_sorted_array",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - twoArray_Sort_merge",
+            "request": "launch",
+            "mainClass": "twoArray_Sort_merge",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - _2arrays_sorted_merge",
+            "request": "launch",
+            "mainClass": "_2arrays_sorted_merge",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Insertion_sort",
             "request": "launch",
             "mainClass": "Insertion_sort",
