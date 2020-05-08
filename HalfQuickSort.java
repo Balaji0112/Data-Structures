@@ -55,3 +55,6 @@ public class HalfQuickSort {
         obj.quickSort(arr);
     }
 }
+
+//Time_complexity=O(n)
+//Space_complexity=O(1)
