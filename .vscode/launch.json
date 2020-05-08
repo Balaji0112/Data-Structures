@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Fibonacci_recursive",
+            "request": "launch",
+            "mainClass": "Fibonacci_recursive",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HalfQuickSort",
             "request": "launch",
             "mainClass": "HalfQuickSort",
