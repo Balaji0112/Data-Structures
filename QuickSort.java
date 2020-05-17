@@ -6,7 +6,7 @@ public class QuickSort {
             int i = r;
             int j = r;
             for(;j>l;j--){
-                if(pivot<a[i]){
+                if(pivot<a[j]){
                     int temp=a[i];
                     a[i]=a[j];
                     a[j]=temp;
