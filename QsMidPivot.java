@@ -1,14 +1,15 @@
 import java.util.Scanner;
 public class QsMidPivot {
-	public static void quickSort(int[] arr, int low, int high) {
-        if (low >= high)
+	void quickSort(int[] arr, int low, int high) {
+        if (low>=high)
         {
            return;
         }
-		int middle = low + (high - low)/2;
+		int middle=low+(high-low)/2;
 		int pivot = arr[middle];
-		int i = low, j = high;
-		while (i <= j) {
+        int i=low;;
+        int j = high;
+		while (i<=j) {
 			while (arr[i]<pivot) {
 				i++;
 			}
@@ -49,8 +50,7 @@ public class QsMidPivot {
         QsMidPivot obj=new QsMidPivot();
         obj.quickSort(arr,l,r);
         obj.print(arr);
-        // for(int i=0;i<n;i++){
-        //     System.out.print(x[i]+" ");
-        // }
     }
 }
+//Time complexity of this program is O(n^2)
+//Space Complexity used here is O(n) 
