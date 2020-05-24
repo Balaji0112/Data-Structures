@@ -5,8 +5,8 @@ public class QsMidPivot {
         {
            return;
         }
-		int middle=low+(high-low)/2;
-		int pivot = arr[middle];
+	int middle=low+(high-low)/2;
+	int pivot = arr[middle];
         int i=low;;
         int j = high;
 		while (i<=j) {
