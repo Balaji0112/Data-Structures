@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Quick3Sort",
+            "request": "launch",
+            "mainClass": "Quick3Sort",
+            "projectName": "Data-Structures_1b16360b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - QsMidPivot",
             "request": "launch",
             "mainClass": "QsMidPivot",

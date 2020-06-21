@@ -40,6 +40,7 @@ public class QsMidPivot {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int l=0;
+        // Integer x=0;
         int r=n-1;
         int[] arr=new int[n];
         for(int i=0;i<n;i++)
@@ -48,6 +49,7 @@ public class QsMidPivot {
             arr[i]=element;
         }
         QsMidPivot obj=new QsMidPivot();
+        // var obj1=new QsMidPivot();
         obj.quickSort(arr,l,r);
         obj.print(arr);
     }
