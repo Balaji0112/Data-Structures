@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Quick3Sort {
     public static int[] quick3(int[] arr, int start, int end) {
         int i = end; 
@@ -31,7 +30,6 @@ public class Quick3Sort {
     }
     
     public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
         int[] arr = {168,179,181,120,142,204};
         int len=arr.length;
         quick3(arr,0,len-1);
