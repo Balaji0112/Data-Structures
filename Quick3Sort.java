@@ -33,8 +33,9 @@ public class Quick3Sort {
         int[] arr = {168,179,181,120,142,204};
         int len=arr.length;
         quick3(arr,0,len-1);
-		System.out.println("\n\nQuick3 sort:");
 		for(int i=0;i<len;i++) 
 			System.out.print(arr[i]+" ");
     }
 }
+//Time Complexity is O(n^2) in worst case
+//Space Complexity is O(n) in worst case
