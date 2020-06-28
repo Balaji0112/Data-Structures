@@ -8,10 +8,10 @@ public class HeapSort {
         int temp = arr[0];
         arr[0] = arr[i];
         arr[i] = temp;
-        heap(arr, i, 0);
+        heap(arr,i,0);
       }
     }
-    void heap(int arr[], int n, int i) {
+    void heap(int arr[],int n,int i) {
       int largest = i;
       int l = 2*i+1;
       int r = 2*i+2;
