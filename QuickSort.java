@@ -39,3 +39,6 @@ public class QuickSort {
         }
     }
 }
+
+//Time Complexity is O(n^2) in worst case
+//Space Complexity is O(n) in worst case
