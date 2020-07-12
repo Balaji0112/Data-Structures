@@ -32,5 +32,6 @@ class Selection_Sort
             arr[i]=array_element;
         }
         obj.sort(arr);
+        sc.close();
     } 
 }

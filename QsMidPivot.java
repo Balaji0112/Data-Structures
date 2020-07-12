@@ -52,6 +52,7 @@ public class QsMidPivot {
         // var obj1=new QsMidPivot();
         obj.quickSort(arr,l,r);
         obj.print(arr);
+        sc.close();
     }
 }
 //Time complexity of this program is O(n^2)

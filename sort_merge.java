@@ -47,7 +47,8 @@ public class sort_merge {
             int array_element=sc.nextInt();
             arr2[i]=array_element;
         }
-	    obj.sort_array(arr1,arr2);
+		obj.sort_array(arr1,arr2);
+		sc.close();
     }
 }
 

@@ -53,6 +53,7 @@ public class HalfQuickSort {
         }
         HalfQuickSort obj=new HalfQuickSort();
         obj.quickSort(arr);
+        sc.close();
     }
 }
 

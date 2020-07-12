@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Bubble_Sort",
+            "request": "launch",
+            "mainClass": "Bubble_Sort",
+            "projectName": "Data-Structures_74a8822d"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HeapSort",
             "request": "launch",
             "mainClass": "HeapSort",

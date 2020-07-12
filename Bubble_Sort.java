@@ -28,5 +28,6 @@ public static void main(String args[]) {
 	}
     Bubble_Sort obj=new Bubble_Sort();
     obj.Sort(arr);
+    sc.close();
 }
 }

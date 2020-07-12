@@ -35,5 +35,6 @@ class Insertion_sort
         Insertion_sort obj=new Insertion_sort();
         obj.sort(arr);// Time Complexity of this Sorting is O(n^2)
         obj.print(arr);// Space Complexity of this Sorting is constant which means O(1)
+        sc.close();
     }
 }

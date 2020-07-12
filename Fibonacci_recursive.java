@@ -17,5 +17,6 @@ public class Fibonacci_recursive {
         Scanner sc=new Scanner(System.in);
         int number=sc.nextInt();
         System.out.println(Fibonacci(number));
+        sc.close();
     }
 }
